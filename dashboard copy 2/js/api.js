@@ -115,24 +115,3 @@ function loadDashboardAssets() {
         })
         .catch(error => console.error("Erro ao carregar o HTML pedidos:", error));
 }
-
-function loadDashboardAssets() {
-    // Carrega o CSS
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'clientes/clientes.css';
-    document.head.appendChild(link);
-
-    // Carrega o HTML
-    fetch('pedidos/pedidos.html')
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById('dashboard-container').innerHTML = html;
-
-            // Carrega o JS
-            const script = document.createElement('script');
-            script.src = 'clientes/clientes.js';
-            document.body.appendChild(script);
-        })
-        .catch(error => console.error("Erro ao carregar o HTML cliente:", error));
-}
