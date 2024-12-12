@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#output {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

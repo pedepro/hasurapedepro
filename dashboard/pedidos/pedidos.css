@@ -1,0 +1,14 @@
+.gestor-container {
+    display: none; /* Inicialmente escondido */
+    background-color: rgb(167, 167, 167); /* Cor de fundo vermelha */
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    margin-left: 280px; /* Margem esquerda */
+    margin-top: 80px; /* Margem superior */
+    padding: 20px; /* Padding para o conteúdo */
+    color: white; /* Cor do texto */
+    position: absolute; /* Para garantir que o container se posicione corretamente */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Para garantir que fique sobre outros elementos */
+}
